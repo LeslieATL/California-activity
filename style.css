@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* menu */
+.navbar{
+    background-color: #4E7D88;
+    padding:20px;
+}
+
+#menu-links{
+    list-style: none;
+    display: flex;
+    gap:60px;
+    margin-top: 15px ;
+
+}
+#the-menu-links{
+    display: flex;
+    gap:32px;
+    list-style: none;
+}
+
+/* hero */
+
+#hero.container{
+    display: flex;
+
+}
+.hero-image{
+    display: flex;
+    width:80%;
+
+}
+.nav-item{
+    font-size: 20px;
+}
+/* experiences */
+
+card.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 3, 3); 
+}
+.pb-5{
+    padding-top: 10rem; !important;
+}
+
+
+
